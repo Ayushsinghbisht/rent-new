@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <!-- https://formsubmit.co/el/xusihu  https://formsubmit.co/el/xusihu -->
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Form with CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        input[type="submit"] {
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .success-message {
+            color: #008000;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .button{
+            margin-top: 1vh;
+            margin-left: 40vw;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Get in touch</h2>
+       
+        <form action="https://formsubmit.co/el/xusihu" method="POST"  >
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">phone number</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="message">family members:</label>
+            <textarea id="message" name="message" rows="5" ></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <div class="success-message" id="successMessage">
+            <!-- This will be used to display a success message after the form is submitted successfully. -->
+        </div>
+    </div>
+    <button class="button"><a  href="showing.html">go back</a></button><br>
+   
+ 
+</body>
+</html>
+
+</body>
+</html>

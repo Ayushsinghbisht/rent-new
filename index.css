@@ -1,0 +1,112 @@
+/* body{
+  background-image: url("backside.jpeg");
+} */
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    width: 100vw;
+    background-image: url("backside.jpeg");
+    /* margin-left: 15%; */
+    margin-top: 2%;
+    opacity: 90%;
+    color: silver;
+  }
+  .heading{
+    height: 4vh;
+    width: 10vw;
+    background-color:rgb(64, 69, 69);
+    padding-left: 1vw; 
+    /* padding-top:1vw; */
+    border: 1px solid rgb(57, 27, 116);
+    margin-top: 1vh;
+    margin-left: 1vw;
+    font-size: 2vw ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    justify-content: center;
+    opacity: 120%;
+    
+    
+  }
+  .content{
+    display: flex;
+    height: 40vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width:60vw;
+    /* background-color: greenyellow; */
+    margin-left: 15vw;
+    padding-left: 2.5vw;
+   
+    /* font-family:Arial, Helvetica, sans-serif; */
+    font-size:2.5vw;
+    /* font-style:oblique; */
+    font-weight: 200;
+    /* font-weight: bold; */
+    opacity: 150%;
+    padding: 0%;
+  }
+  .rfr{
+    /* background-color: red; */
+    width:30vw;
+    height: 4vh;
+    /* align-self: center; */
+    font-size:2vh;
+    font-weight: 700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-stretch:ultra-expanded;
+    padding: 0.2vh;
+    color: red;
+    margin-top: 1vh;
+    /* background-color: yellow; */
+  }
+  .footer{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+  font-size: 2vw;
+  
+  }
+  .button{
+    height: 3.5vh;
+    width: 20vw;
+    font-size: 1vw;
+    color:white;
+    background-color: black;
+    padding: 0%;
+    /* border:2px solid grey; */
+  
+  }
+  .address{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.5vw;
+    font-weight: 600;
+    font-variant: small-caps;
+    font-weight: bold;
+    padding: 0%;
+  }
+  a{
+    background-color: black;
+    color: white;
+  }
+  .main{
+    display: flex;
+    width: 90vw;
+    height: 53vh;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid blanchedalmond;
+    align-items: center;
+    margin-left: 4vh;
+    border: 5px solid blanchedalmond;
+  }
+  .contact{
+    margin-left: 20vw;
+    font-size: 3vh;
+  }

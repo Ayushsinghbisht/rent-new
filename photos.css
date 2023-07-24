@@ -1,0 +1,25 @@
+.container{
+    /* background-color: red; */
+    height:100vh ;
+    width: 100vw;
+    margin-left: 5vw;
+}
+.images{
+    margin-left: 20%;
+}
+button{
+    /* height: 5vh; */
+    /* width: 16vw; */
+    /* font-size: 1.5vw; */
+    color:white;
+    background-color: black;
+    /* border:2px solid grey; */
+    outline-offset: 4px;
+    border: 5px bold white;
+    
+
+  }
+  .button{
+    color:white;
+  }
+ 
